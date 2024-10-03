@@ -1,0 +1,15 @@
+services:
+  thiphamshop:
+    container_name: "thiphamshop"
+    image: thiphamshop
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: always
+    networks:
+      - npm-proxy
+networks:
+  npm-proxy:
+    external: true
