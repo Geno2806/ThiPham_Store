@@ -1,0 +1,16 @@
+{
+  "name": "thipham-store",
+  "version": "1.0.0",
+  "description": "ThiPham store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geno",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "thipham-store": "file:"
+  }
+}
