@@ -1,3 +1,3 @@
 # [ThiPham.shop](https://thipham.shop)
 
-![](/public/images/.png)
+![](./public/images/thiphamshirt.jpg)
